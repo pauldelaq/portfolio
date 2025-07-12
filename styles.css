@@ -1,0 +1,176 @@
+
+body {
+    font-family: sans-serif;
+  }
+  
+  .navbar {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+  background: linear-gradient(45deg, lightblue, yellow);
+  border-bottom: solid gray;
+  }
+  
+  @media (max-width: 500px) {
+    .navbar {
+      height: 50px;
+    }
+  }
+  
+  .navbar-items {
+    position: absolute;
+    right: 20px;
+    font-size: 18px;
+    display: flex;
+    gap: 1.5em;
+    top: 10px;
+  }
+  
+  @media (max-width: 500px) {
+      .navbar-items {
+      position: absolute;
+      display: flex;
+      top: -3px;
+    }
+  }
+  
+  .navbar-items a {
+    color: green;
+    text-decoration: none;
+  }
+  
+  .navbar-items a:hover {
+    color: blue;
+  }
+  
+   ul li {
+    list-style: none;
+    display: inline;
+  }
+  
+  .welcome-section {
+    margin-top: 25vh;
+    height: 100vh;
+    text-align: center;
+  }
+  
+  h1, h2 {
+    text-align: center;
+  }
+  
+  .welcome-section p {
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .welcome-section img {
+    height: auto;
+    width: 50vh;
+    display: flex;
+    padding-top: 10px;
+    align-items: center;
+    border-radius: 80%;
+  
+    margin: 0 auto;
+  }
+  
+  #welcome-section {
+    scroll-margin-top: 100px;
+  }
+  
+  p.info-text {
+    color: green;
+    padding: 1em;
+    padding-left: 4em;
+    padding-right: 4em;
+  }
+  
+  .projects h2{
+    padding-top: 100px;
+  }
+  
+  .project-tile {
+    align-items: center;
+    width: 40vh;
+    padding: 10vh;
+  
+  }
+  
+  .project-tile img {
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 8px;
+    background-color: white; /* optional */
+    box-shadow: 6px 6px 8px rgb(0 0 0 / 71%);
+  }
+
+  .project-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    align-items: flex-start;
+  
+    justify-content: center;
+    
+  }
+  
+  .project-label {
+    font-weight: bold;
+  }
+  
+  .projects-comment {
+    font-size: 28px;
+    text-align: center;
+  }
+  
+  .contact-section {
+    padding-bottom: 40px;
+    text-align: center;
+  }
+  
+  .contacts {
+    
+    font-size: 18px;
+    display: flex;
+    gap: 1.5em;
+    align-items: flex-end;
+    justify-content: center;
+    
+  }
+    
+  .icon.github {
+    height: auto;
+    width: 20px;
+  }
+  
+  .icon.buymeacoffee {
+    height: auto;
+    width: 36px;
+    transform: translate(12px, 5px)
+  }
+  
+  .project-list a {
+    color: green;
+    text-decoration: none;
+  }
+  
+  .project-list a:hover {
+    color: blue;
+  }
+  
+  .contacts a {
+    color: green;
+    text-decoration: none;
+  }
+  
+  .contacts a:hover {
+    color: blue;
+  }
+  
+  comment {
+    font-style: italic;
+  }
