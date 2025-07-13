@@ -1,18 +1,25 @@
+* {
+    -webkit-tap-highlight-color: transparent;
+  }  
 
 body {
     font-family: sans-serif;
   }
   
-  .navbar {
-    display: flex;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 80px;
-  background: linear-gradient(45deg, lightblue, yellow);
+.navbar {
+  display: flex;
+  align-items: center;         /* ✅ Vertically center children */
+  justify-content: space-between; /* Optional: spread items horizontally */
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  background: linear-gradient(360deg, lightblue, yellow);
   border-bottom: solid gray;
-  }
+  padding: 0 16px; /* Optional padding for spacing */
+  z-index: 10;
+}
   
   @media (max-width: 500px) {
     .navbar {
@@ -51,6 +58,13 @@ body {
     display: inline;
   }
   
+.navbar-content {
+  display: flex;
+  align-items: center;         /* ✅ Vertically center both button and nav links */
+  justify-content: space-between;
+  width: 100%;
+}
+
   .welcome-section {
     margin-top: 25vh;
     height: 100vh;
@@ -139,7 +153,7 @@ body {
     gap: 1.5em;
     align-items: flex-end;
     justify-content: center;
-    
+    flex-wrap: wrap;
   }
     
   .icon.github {
@@ -174,3 +188,71 @@ body {
   comment {
     font-style: italic;
   }
+
+  .lang-icon-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.panel {
+position: fixed;
+    top: 50px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: white;
+    padding: 20px;
+    z-index: 9;
+    overflow-y: auto;
+    padding-top: 64px;
+}
+
+.language-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.lang-btn {
+  padding: 12px 16px;
+  font-size: 1em;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.lang-btn:hover {
+  background: #eee;
+}
+
+.lang-btn.selected {
+  background: #ccc;
+}
+
+.hidden {
+  display: none !important;
+}
+
+#languageButton {
+  display: flex;
+  align-items: center;     /* ✅ Vertically center icon */
+  justify-content: center; /* ✅ Horizontally center icon */
+  width: 40px;
+  height: 40px;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  z-index: 1001;
+}
+
+#languageButton img {
+  display: block;
+  width: 100%;          /* force fill */
+  height: 100%;         /* force fill */
+  object-fit: contain;
+}

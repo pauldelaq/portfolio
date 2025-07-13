@@ -3,23 +3,25 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#fefe01" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
     <title>My Portfolio</title>
     <link rel="stylesheet" href="styles.css">
-    </head>
+  </head>
   <body>
-    <nav id="navbar" class="navbar">
-        <ul class="navbar-items">
-        <li>
-        <a href="#welcome-section">About Me</a>
-        </li>
-        <li>
-          <a href="#projects">Projects</a>
-          </li>
-        <li>
-        <a href="#contact">Contact</a>
-        </li>
-        </ul>
-      </nav>
+  <nav id="navbar" class="navbar">
+    <div class="navbar-content">
+      <button id="languageButton" class="lang-icon-btn">
+      <img src="assets/1F310.svg" alt="Languages" />
+      </button>
+      <ul class="navbar-items">
+        <li><a href="#welcome-section">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
   <section id="welcome-section" class="welcome-section">
     <h1>Paul Delaquis</h1>
     <p>Independent Web Developer</p>
@@ -27,16 +29,16 @@
     </section>
     <section>
     <p class="info-text">
-      Hi, I’m an independent developer with a background in language teaching, based in Taiwan. I build web apps that make language learning engaging and intuitive.
+      Hi, I’m an independent developer with a background in language teaching. I build web apps that make language learning engaging and intuitive. I'm currently based in Taipei, Taiwan.
     </p>
     <p class="info-text">
-      My passion lies in designing interfaces and learning tools that help users interact with foreign languages in creative, low-stress ways. Over the past year, I’ve been developing educational apps focused on vocabulary, reading, speaking and interactive storytelling, using HTML, CSS, and JavaScript.
+      My passion lies in designing interfaces to help users interact with foreign languages in creative, low-stress ways. Over the past year, I’ve been developing educational apps focused on vocabulary, reading, speaking and interactive storytelling, using HTML, CSS, and JavaScript.
     </p>
     <p class="info-text">
       I’ve trained myself in web development through online resources and hands-on experimentation, often supported by AI tools. I’m continuing to grow my skills and am especially interested in expanding into mobile and desktop app development.
     </p>
     <p class="info-text">
-      Currently exploring: AI-enhanced language learning, TTS interaction, and simple game mechanics to support learner engagement.
+      Currently exploring: speech recognition, TTS interaction, and simple game mechanics to support learner engagement.
     </p>
     <p class="info-text">
       I’m open to collaborating on projects related to education, language learning, or UI design for digital tools. Let’s connect.
@@ -73,7 +75,29 @@
                <a id="profile-link" href="https://buymeacoffee.com/pauldelaq" class="contact" target="_blank">
           <img class="icon buymeacoffee" src="assets/buymeacoffee.svg"></i> Buy Me a Coffee
         </a>
+        <a href="#" id="reveal-email" class="contact">Email</a>
+        <span id="email-address" style="display: none;"></span>
           </div>
         </section>
+        <script>
+          (() => {
+            const reveal = document.getElementById("reveal-email");
+            const target = document.getElementById("email-address");
+
+            reveal.addEventListener("click", (e) => {
+              e.preventDefault(); // prevent jump to top
+              const parts = ["pauldelaq", "gmail", "com"];
+              const email = `${parts[0]}@${parts[1]}.${parts[2]}`;
+              target.innerHTML = `<a href="mailto:${email}" class="contact">${email}</a>`;
+              target.style.display = "inline";
+              reveal.style.display = "none";
+            });
+          })();
+        </script>
+        <div id="languageMenu" class="panel hidden">
+      <div class="language-list"></div>
+    </div>
+
+    <script src="lang-menu.js"></script>
   </body>
 </html>

@@ -1,0 +1,92 @@
+{
+  "en": {
+    "about": "About Me",
+    "projects": "Projects",
+    "contact": "Contact",
+    "subtitle": "Independent Web Developer",
+    "bio": [
+      "Hi, I’m an independent developer with a background in language teaching. I build web apps that make language learning engaging and intuitive. I'm currently based in Taipei, Taiwan.",
+      "My passion lies in designing interfaces to help users interact with foreign languages in creative, low-stress ways. Over the past year, I’ve been developing educational apps focused on vocabulary, reading, speaking and interactive storytelling, using HTML, CSS, and JavaScript.",
+      "I’ve trained myself in web development through online resources and hands-on experimentation, often supported by AI tools. I’m continuing to grow my skills and am especially interested in expanding into mobile and desktop app development.",
+      "Currently exploring: speech recognition, TTS interaction, and simple game mechanics to support learner engagement.",
+      "I’m open to collaborating on projects related to education, language learning, or UI design for digital tools. Let’s connect."
+    ],
+    "keepInTouch": "Let's keep in touch!",
+    "projectTitle": "Check out my web projects:",
+    "tremojiDesc": "A web-based app for learning vocabulary in foreign languages",
+    "dualDesc": "A bilingual reading web app",
+    "cueDesc": "A voice-powered web app for improving fluency in speaking"
+  },
+  "fr": {
+    "about": "À propos",
+    "projects": "Projets",
+    "contact": "Contact",
+    "subtitle": "Développeur web indépendant",
+    "bio": [
+      "Je suis un développeur indépendant avec une expérience en enseignement des langues. Je crée des applications web qui rendent l'apprentissage des langues engageant et intuitif. Je suis actuellement basé à Taipei, Taïwan.",
+      "Ma passion réside dans la conception d'interfaces qui aident les utilisateurs à interagir avec les langues étrangères de manière créative et sans stress. Au cours de l’année écoulée, j’ai développé des applications éducatives axées sur le vocabulaire, la lecture, la parole et la narration interactive, en utilisant HTML, CSS et JavaScript.",
+      "Je me suis formé au développement web grâce à des ressources en ligne et à une expérimentation pratique, souvent soutenu par des outils d’IA. Je continue à développer mes compétences et je suis particulièrement intéressé par le développement d’applications mobiles et de bureau.",
+      "J’explore actuellement : la reconnaissance vocale, l’interaction TTS et des mécaniques de jeu simples pour renforcer l’engagement des apprenants.",
+      "Je suis ouvert à des collaborations sur des projets liés à l’éducation, à l’apprentissage des langues ou à la conception d’interfaces pour des outils numériques. Contactez-moi !"
+    ],
+    "keepInTouch": "Restons en contact !",
+    "projectTitle": "Découvrez mes projets web :",
+    "tremojiDesc": "Une application web pour apprendre du vocabulaire en langues étrangères",
+    "dualDesc": "Une application de lecture bilingue",
+    "cueDesc": "Une application vocale pour améliorer la fluidité orale"
+  },
+  "es": {
+    "about": "Sobre mí",
+    "projects": "Proyectos",
+    "contact": "Contacto",
+    "subtitle": "Desarrollador web independiente",
+    "bio": [
+      "Soy un desarrollador independiente con experiencia en la enseñanza de idiomas. Creo aplicaciones web que hacen que el aprendizaje de idiomas sea atractivo e intuitivo. Actualmente vivo en Taipéi, Taiwán.",
+      "Mi pasión es diseñar interfaces que ayuden a los usuarios a interactuar con idiomas extranjeros de manera creativa y sin estrés. Durante el último año he estado desarrollando aplicaciones educativas centradas en vocabulario, lectura, conversación y narración interactiva, utilizando HTML, CSS y JavaScript.",
+      "He aprendido desarrollo web por mi cuenta, utilizando recursos en línea y experimentando de forma práctica, a menudo con el apoyo de herramientas de inteligencia artificial. Sigo perfeccionando mis habilidades y me interesa especialmente el desarrollo de aplicaciones móviles y de escritorio.",
+      "Actualmente estoy explorando: reconocimiento de voz, interacción TTS y mecánicas de juego simples para mejorar el compromiso del estudiante.",
+      "Estoy abierto a colaborar en proyectos relacionados con la educación, el aprendizaje de idiomas o el diseño de interfaces digitales. ¡Conectemos!"
+    ],
+    "keepInTouch": "¡Mantengámonos en contacto!",
+    "projectTitle": "Echa un vistazo a mis proyectos web:",
+    "tremojiDesc": "Una aplicación web para aprender vocabulario en idiomas extranjeros",
+    "dualDesc": "Una aplicación de lectura bilingüe",
+    "cueDesc": "Una aplicación con voz para mejorar la fluidez al hablar"
+  },
+  "zh-TW": {
+    "about": "關於我",
+    "projects": "專案",
+    "contact": "聯絡方式",
+    "subtitle": "獨立網頁開發者",
+    "bio": [
+      "我是一位具有語言教學背景的獨立開發者。我開發網頁應用程式，讓語言學習變得更有趣、更直觀。目前我居住在台灣台北。",
+      "我熱衷於設計能幫助使用者以創意、無壓力的方式與外語互動的介面。過去一年，我致力於開發以詞彙、閱讀、口說與互動式故事為主的教育應用，使用的技術包括 HTML、CSS 和 JavaScript。",
+      "我透過線上資源和實作自學網頁開發，也常借助 AI 工具輔助學習。我正在持續精進自己的技能，並特別有興趣拓展到行動裝置與桌面應用開發。",
+      "目前探索的領域包含語音辨識、TTS 語音互動，以及促進學習者投入的簡單遊戲機制。",
+      "我樂於與他人合作，開發與教育、語言學習或數位工具 UI 設計相關的專案。歡迎聯繫！"
+    ],
+    "keepInTouch": "歡迎與我聯繫！",
+    "projectTitle": "看看我的網頁專案：",
+    "tremojiDesc": "一款幫助學習外語詞彙的網頁應用程式",
+    "dualDesc": "一款雙語閱讀網頁應用程式",
+    "cueDesc": "一款提升口說流利度的語音互動應用程式"
+  },
+  "zh-CN": {
+    "about": "关于我",
+    "projects": "项目",
+    "contact": "联系方式",
+    "subtitle": "独立网页开发者",
+    "bio": [
+      "我是一名具有语言教学背景的独立开发者。我开发网页应用程序，使语言学习更有趣、更直观。目前我居住在中国台北。",
+      "我热衷于设计用户界面，帮助学习者以创意且无压力的方式与外语互动。过去一年，我开发了多个专注于词汇、阅读、口语和互动故事的教育应用程序，使用了 HTML、CSS 和 JavaScript 技术。",
+      "我通过在线资源和实践自学网页开发，也常借助 AI 工具来辅助学习。我会持续提升自己的技术，并特别有兴趣拓展到移动和桌面应用开发。",
+      "目前正在探索的领域包括语音识别、TTS 语音互动，以及提升学习者参与度的简单游戏机制。",
+      "我欢迎与他人合作，开发与教育、语言学习或数字工具界面设计相关的项目。欢迎联系我！"
+    ],
+    "keepInTouch": "欢迎联系我！",
+    "projectTitle": "欢迎查看我的网页项目：",
+    "tremojiDesc": "一个帮助学习外语词汇的网页应用程序",
+    "dualDesc": "一个双语阅读网页应用程序",
+    "cueDesc": "一个提升口语流利度的语音互动网页应用程序"
+  }
+}
