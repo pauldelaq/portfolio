@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const t = translations[currentLang] || translations['en'];
 
     // Navbar links
-    document.querySelector('a[href="#welcome-section"]').textContent = t.about;
+    document.querySelector('a[href="#info-section"]').textContent = t.about;
     document.querySelector('a[href="#projects"]').textContent = t.projects;
     document.querySelector('a[href="#contact"]').textContent = t.contact;
 
@@ -77,6 +77,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (comments[0]) comments[0].textContent = t.tremojiDesc;
     if (comments[1]) comments[1].textContent = t.dualDesc;
     if (comments[2]) comments[2].textContent = t.cueDesc;
+    if (comments[3]) comments[3].textContent = t.worksheetDesc;
   }
 
   function loadTranslations() {

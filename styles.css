@@ -270,3 +270,11 @@ position: fixed;
   height: 100%;         /* force fill */
   object-fit: contain;
 }
+
+.worksheet-tile img {
+  background-color: lightgray;
+}
+
+.info-section {
+  padding-top: 80px;
+}
